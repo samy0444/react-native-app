@@ -14,11 +14,11 @@ export default function App() {
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="Home" component={HomeScreen} />
           <Stack.Screen name="Camera" component={CameraScreen} />
-          {/* <Stack.Screen 
+          <Stack.Screen 
             name="Processing" 
             component={ProcessingScreen}
             options={{ gestureEnabled: false }}
-          /> */}
+          />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

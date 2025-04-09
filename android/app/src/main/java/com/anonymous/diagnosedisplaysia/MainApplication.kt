@@ -20,8 +20,8 @@ import org.pytorch.rn.core.jsi.PyTorchCoreJSIModulePackage // Add this import
 
 class MainApplication : Application(), ReactApplication {
   override val reactNativeHost: ReactNativeHost = ReactNativeHostWrapper(
-    this,
-    object : DefaultReactNativeHost(this) {
+        this,
+        object : DefaultReactNativeHost(this) {
           // Add this override
           override fun getJSIModulePackage() = PyTorchCoreJSIModulePackage()
           override fun getPackages(): List<ReactPackage> {
