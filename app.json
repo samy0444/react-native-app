@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "diagnose-displaysia",
+    "slug": "diagnose-displaysia",
+    "version": "1.0.0",
+    "plugins": [
+      "react-native-pytorch-core",
+      "expo-camera"
+    ],
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "CAMERA",
+        "RECORD_AUDIO",
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.diagnosedisplaysia"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "Required for video analysis",
+        "NSMicrophoneUsageDescription": "Required for audio recording"
+      }
+    }
+  }
+}
