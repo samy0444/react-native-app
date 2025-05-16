@@ -16,5 +16,3 @@
 
 * npx expo start --clear
 
-### upgrade expo version
-* npx expo install expo@^53.0.0
