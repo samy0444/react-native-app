@@ -1,7 +1,7 @@
 const { getDefaultConfig } = require('expo/metro-config');
 
-const config = getDefaultConfig(__dirname);
-
-config.resolver.assetExts.push('ptl'); // Add .ptl extension support
-
-module.exports = config;
+module.exports = (async () => {
+    const config = await getDefaultConfig(__dirname);
+  config.resolver.assetExts.push('tflite');
+  return config;
+})();

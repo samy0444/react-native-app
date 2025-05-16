@@ -2,6 +2,7 @@ npx expo install expo-camera expo-media-library expo-av react-native-safe-area-c
 
 npm install expo-module-scripts --save-dev
 
+npm install --legacy-peer-deps
 
 ### npm install expo-camera
 ### npm install expo-media-library
@@ -9,3 +10,8 @@ npm install expo-module-scripts --save-dev
 ### npm install expo-av
 
 ### npm install react-native-pytorch-core react-native-vision-camera
+
+* npx expo start --clear
+
+### upgrade expo version
+* npx expo install expo@^53.0.0
